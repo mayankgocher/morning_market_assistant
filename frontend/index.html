@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Morning Market Assistant</title>
+
+    <!-- Static CSS via FastAPI -->
+    <link rel="stylesheet" href="/frontend/style.css">
+
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="card">
+    <h1>📈 Morning Market Assistant</h1>
+    <p class="subtitle">Ask market questions using text or voice</p>
+
+    <!-- TEXT INPUT -->
+    <textarea
+        id="textInput"
+        placeholder="Example: Give me today's market update for Apple and Tesla">
+    </textarea>
+
+    <div class="or">OR</div>
+
+    <!-- VOICE CONTROLS -->
+    <div class="voice-controls">
+        <button id="recordBtn">🎙 Start Recording</button>
+        <button id="stopBtn" disabled>⏹ Stop Recording</button>
+        <span id="recordStatus"></span>
+    </div>
+
+    <!-- ACTION BUTTONS -->
+    <div class="action-buttons">
+        <button id="submitBtn">🚀 Submit</button>
+        <button id="stopVoiceBtn" disabled>🔇 Stop Voice</button>
+    </div>
+
+    <!-- LOADER -->
+    <div id="loader" class="loader hidden"></div>
+
+    <!-- OUTPUT -->
+    <h2>📄 Market Summary</h2>
+    <div id="output">Waiting for input...</div>
+
+    <!-- CHART -->
+    <h2>📊 Price Trend</h2>
+    <div id="chartsContainer"></div>
+</div>
+
+<!-- Static JS via FastAPI -->
+<script src="/frontend/script.js"></script>
+
+</body>
+</html>
