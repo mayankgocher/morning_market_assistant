@@ -176,14 +176,6 @@ Planned deployment:
 Hugging Face Spaces (FastAPI)
 The project is structured to be easily deployable.
 
-🎓 Academic / Interview Notes
-
-This project demonstrates:
-Real-world LLM integration
-Market-aware system design
-Handling ambiguous user inputs
-Incremental system evolution
-Production-first mindset
 
 📜 License
 
