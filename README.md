@@ -19,7 +19,7 @@ subsidiaries, typos, and mixed geography (US + India markets).
 - 🌍 **Supports US & Indian markets (NSE / BSE)**
 - 🧩 **Handles subsidiaries and brand names (e.g., WhatsApp → Meta)**
 - ⚡ **FastAPI backend**
-- 🖥️ **Simple, user-friendly web UI**
+- 🖥️ **Simple, user-friendly Web UI**
 
 ---
 
@@ -95,7 +95,7 @@ This avoids hallucinations and false matches.
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure  
 
 morning_market_assistant/
 │
